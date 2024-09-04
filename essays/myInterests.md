@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "My Intrests"
+title: "My Interests"
 # All dates must be YYYY-MM-DD format!
 date: 2023-9-3
 published: true
