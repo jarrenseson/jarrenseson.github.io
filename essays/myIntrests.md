@@ -11,7 +11,7 @@ labels:
   - Machine Learning
 ---
 
-Software engineering is a very diverse field 
+*Software engineering is a very diverse field, which covers a wide array of topics, such as DevOps engineering, front end development, back end development, full stack development, and much more.*
 
 ## In the context of programming
 
