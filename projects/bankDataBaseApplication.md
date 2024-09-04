@@ -10,12 +10,6 @@ labels:
 summary: "Simple banking application that allowed the user to add 'records' to a linked list, implemented by myself."
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
-
 This application was developed by me in my program structure class. I implemented the linked list data structure into C++. It allowed users to search, add, and delete records of bank users. Through developing this project, I gained insight into dynamic memory allocation, pointers, and interactions between UI and backend. 
 
 ```cpp
