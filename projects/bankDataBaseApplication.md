@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/download.jpg
+image: /img/download.jpg
 title: "ICS212: Bank Database Application"
 date: 2024
 published: true
