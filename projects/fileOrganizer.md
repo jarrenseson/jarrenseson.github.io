@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/8422225.png
-title: "FileOrganizer"
+title: "File Organizer"
 date: 2024
 published: true
 labels:
