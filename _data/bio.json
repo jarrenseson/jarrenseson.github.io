@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "jarrenseson", "url": "http://github.com/jarrenseson" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "linkedin.com/in/jarren-seson-ab8516245" }
+      { "network": "linkedin", "username": "jarrenseson", "url": "linkedin.com/in/jarren-seson-ab8516245" }
     ]
   },
   "interests": [
