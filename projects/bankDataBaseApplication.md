@@ -30,4 +30,4 @@ byte ADCRead(byte ch)
 }
 ```
 
-[GitHub]([https://manoa.hawaii.edu/news/article.php?aId=2857](https://github.com/jarrenseson/ICS-212-Bank-Database-Application.git)).
+[GitHub](https://github.com/jarrenseson/ICS-212-Bank-Database-Application.git)
