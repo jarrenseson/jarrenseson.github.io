@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/8422225.png
 title: "FileOrganizer"
 date: 2023
 published: true
