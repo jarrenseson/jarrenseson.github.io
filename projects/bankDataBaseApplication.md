@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/download.jpg
 title: "ICS 212: Bank Database Application"
-date: 2024
+date: 2023
 published: true
 labels:
   - C++
