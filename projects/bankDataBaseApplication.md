@@ -9,8 +9,9 @@ labels:
   - C++
 summary: "Simple banking application that allowed the user to add 'records' to a linked list, implemented by myself."
 ---
-
+<div>
 This application was developed by me in my program structure class. I implemented the linked list data structure into C++. It allowed users to search, add, and delete records of bank users. Through developing this project, I gained insight into dynamic memory allocation, pointers, and interactions between UI and backend. 
+</div>
 
 ```cpp
 byte ADCRead(byte ch)
