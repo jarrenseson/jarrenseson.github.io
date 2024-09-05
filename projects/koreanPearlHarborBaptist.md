@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/logo.png
 title: "Korean Pearl Harbor Baptist Church Website"
 date: 2024
 published: true
