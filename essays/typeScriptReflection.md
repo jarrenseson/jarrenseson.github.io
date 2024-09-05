@@ -1,29 +1,26 @@
 ---
 layout: essay
 type: essay
-title: "The Best Aspects of Software Engineering"
+title: "TypeScript: The Future of Software Engineering?"
 # All dates must be YYYY-MM-DD format!
-date: 2023-9-3
+date: 2023-9-4
 published: true
 labels:
   - Software Engineering
-  - Computer Science
-  - Machine Learning
-  - Automation/Scripting
-  - Cyber Security
+  - TypeScript
 ---
 
-*Software engineering is a very diverse field, which covers a wide array of topics, such as DevOps engineering, front end development, back end development, full stack development, and much more.*
+*Many people say that JavaScript and by extension TypeScript is a rather tricky language to deal with. I would agree with that. Due to the addition of different types and other features, which are not included in other languages, I think that it has a steeper learning curve than some of the other languages I have learned.*
 
-## Automation
+## Static Typing
 
-Due to the rise of newer high level languages, such as Python, learning to program has never been easier. Due to Python's easy readability and extensive library, it has become the go to language for scripting and automation. Many times I find myself doing tedious and mundane tasks on my computer, which could easily be done much quicker and more accurately by a computer. As such, I have been trying to learn and create more Python projects. Not only can scripting assist me in day to day life, but it could also simplify the lives of many and help others with what we would consider to be "busy" work.
+Another thing I like TypeScript over JavaScript is static typing. Many times in JavaScript I found an error that took me a long time to fix simply because I didn’t use an “= 0”. Also, being able to see what the type is in the code makes the readability of the code significantly better and more predictable.
 
-## AI/Machine Learning
+## Interfaces
 
-Over the past couple of years we have seen rapid devlopment in the AI/machine learning sector of technology. It is to the point where many basic aspects of our life are influenced by AI without us even realizing it. For example, if you have an Iphone X or anything older, anytime you open your phone using face ID your phone accesses data models, based on millions of other facial images with other lightings, angles, etc. It is only a matter of time till AI will have the capabilities to have an even more prevelant presence in our lives. Another example, which is more prevelant in our lives are fully autonomous vehicles. We are now capable of having fully autonomous cars. Although imperfect, it is a harbinger of a new era of technology, which we may see in the coming century.
+Lastly, I also like TypeScripts inclusion of interfaces. It really helps being able to have an outline of an object saved, just like other programming languages. 
 
-## Cyber Security 
+## TypeScript for Software Engineering?
 
-Sadly, the technological advances that have occurred are not only expended to those with good intentions but also those with malicious intent. As such, now more than ever we need more sophisticated cyber security systems. As we become more technologically advanced, we rely more on it, which is why it is so important. For example, entire branches of the DOD, such as the Defense Information System Agency (DISA), are responsible for securing global telecommunications, IT infrastructure, and other services, which support the US military and government. This branch of the DOD is still relatively new, only being founded in 1991.
+As a whole, I think that TypeScript is a good language for web development, as it adds many useful features, that attempt to compensate for JavaScript's shortcomings. However, I think that web development is the only application for it. For other types of applications there are more suitable languages for the tasks at hand
 
