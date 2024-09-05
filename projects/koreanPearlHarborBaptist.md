@@ -2,12 +2,12 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "Korean Pearl Harboro Baptist Church Site"
+title: "Korean Pearl Harbor Baptist Church Website"
 date: 2024
 published: true
 labels:
   - Squarespace
-summary: "A website for my church that I helped to update"
+summary: "A website for my church that I help to update"
 ---
 
 <img src="../img/download.png">
