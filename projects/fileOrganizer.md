@@ -17,4 +17,4 @@ I created this script solely by myself. However, I did gain some insight from a 
 
 I learned a couple of things from this projects. When using the os library, I familiarized myself with directory navigation, file metadata, and path management. I also learned about higher level file operations, such as copying, moving, and deleting files, through using the shutil library. Altogether, I was able to gain more insight into how Python can be used to create scripts to automate certain tasks.
 
-[GitHub](https://github.com/jarrenseson/fileOrganizer.git)
+[Click here to see the full code](https://github.com/jarrenseson/fileOrganizer.git)
