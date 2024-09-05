@@ -11,6 +11,6 @@ labels:
 summary: "I developed a Python program that arranges files based on their file extension"
 ---
 
-As a computer science student, I found myself downloading many files, causing a state of disarray on my desktop. As such, I developed a Python automation script, that allowed me to simply run a line of code and arrange files by file extensions.
+File organizer was a personal project of mine. As a college student, I found myself downloading many files, causing a state of disarray on my desktop. Using Python's os and shutil libraries, I made a program that organizes files by their extension, making a new folder for each new unseen extension.
 
 [GitHub](https://github.com/jarrenseson/fileOrganizer.git)
