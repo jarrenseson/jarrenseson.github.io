@@ -10,7 +10,7 @@ labels:
 summary: "Simple banking application that allowed the user to add 'records' to a linked list, implemented by myself."
 ---
 
-<img src="/img/single_customer_profile-01_1.webp">
+<img src="/img/single_customer_profile-01_1.webp" class="center">
 
 This application was developed by me in my program structure class. I created a mock bank database, which allowed users to be added, deleted, or searched. The database was essential of user objects in a linked list data structure, implemented by myself. Both the UI and backend were implemented in seperate files.
 
