@@ -48,3 +48,10 @@ a {
   background-color: var(--bs-white);
   border-top: none;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: "50%";
+}
