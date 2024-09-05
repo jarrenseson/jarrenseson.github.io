@@ -11,6 +11,10 @@ labels:
 summary: "I developed a Python program that arranges files based on their file extension"
 ---
 
-File organizer was a personal project of mine. As a college student, I found myself downloading many files, causing a state of disarray on my desktop. Using Python's os and shutil libraries, I made a program that organizes files by their extension, making a new folder for each new unseen extension.
+The goal of this project was to have a Python script that instantly organized files within a given directory. Through the use of both the os and shutil library, I retrieved and managed file paths, copied, and moved files through the file system. This script categorized files based on their extension and created new folders for previously unseen extensions.
+
+I created this script solely by myself.
+
+I learned a couple of things from this projects. When using the os library, I familiarized myself with directory navigation, file metadata, and path management. I also learned about higher level file operations, such as copying, moving, and deleting files, through using the shutil library. Altogether, I was able to gain more insight into how Python can be used to create scripts to automate certain tasks.
 
 [GitHub](https://github.com/jarrenseson/fileOrganizer.git)
