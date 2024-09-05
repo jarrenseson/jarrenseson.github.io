@@ -26,5 +26,5 @@ Lastly, I also like TypeScripts inclusion of interfaces. It really helps being a
 
 ## TypeScript for Software Engineering?
 
-As a whole, I think that TypeScript is a good language for web development, as it adds many useful features, that attempt to compensate for JavaScript's shortcomings. However, I think that web development is the only application for it. For other types of applications there are more suitable languages for the tasks at hand
+As a whole, I think that TypeScript is a good language for web development, as it adds many useful features, that attempt to compensate for JavaScript's shortcomings. For example, static styping and type annotations, allowing for greater scalability. Also, because of its active community, there is much documentation and third party tools. However, I think that web application development is the only application for it. For other types of applications there are more more suitable languages for the tasks at hand.
 
