@@ -1,99 +1,23 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "How to Ask Questions and Get Insightful Answers"
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-12
-published: false
+published: true
 labels:
   - Questions
   - Answers
-  - StackOverflow
+  - Innovation
 ---
+## What is a Smart Question
+	There are multiple criteria that a question must meet in order to be received well by the community and ultimately inform not only yourself but also everyone. Before you even ask the question, you want to search for the solution to the problem yourself. You want to be able to show that you put effort into solving the problem before asking or asking a question that thousands of others have asked and all received the same answer. When you do ask the question, you firstly want to ensure that you post it in the right forum. Questions should fall within the subject of the forum. When you first post a question, it should only be posted to one forum, you don’t want to crosspost multiple forums. When posting questions, ensure that the subject header is specific but also concise. A common format for subject headers is the object - deviation format. The object is the object that the problem pertains to and the deviation is the problem itself. When posting the question you want to make it easy to reply, don’t ask for users to send replies to an email. It should also go without saying to use proper grammar and spelling. The main goal of asking a question is to be specific and concise about the problem. Here are some guidelines when describing the problem: describe the symptoms of the bug in chronological order, the environment where it occurred, the research on the problem you did to try to understand the problem better, the steps you took to try to solve the problem yourself, any recent changes on your device, the goal you are trying to achieve, and if possible a way to safely replicate the bug. When you are posting code you want to ensure that you are not posting the entirety of the code. A smaller version of the code with your expectations vs reality will suffice.
+## What is a Stupid Question? 
+	There is a smart way to answer questions and there is a stupid way to ask questions. Stupid questions are typically ignored in online forums and will ultimately lead to no resolution to the problem at hand. The main issue with these stupid questions is ambiguity. Important factors such as, operating system, environment, events leading up to the issue, etc are left out and leave other users confused and asking questions, something that should be avoided when posting on forums. On the other end of the spectrum, there are posts that go too in depth. When posting on forums, you also want to make sure that you are concise with the question you are trying to ask. No one wants to read a 6 page essay describing a problem that you are having. Also, a common theme of stupid questions is a lack of effort on the posters' part. They might not show or might not have researched the problem beforehand entirely. Just throwing your question at others with no intention of trying to solve the problem yourself dissuades other users from helping you to achieve a resolution. 
+## A Good Question 
+	Here is the link to a Stack Overflow forum thread that is a good question. In the thread, the user describes that he is suffering an issue with implicit conversion in C. The goal of the user was to implement a function that, given a byte array of length N, calculate the 16-bit checksum given by a given formula. They state that the implementation did not give the expected result. He attempts to solve the issue himself, theorizing that a variable was being implicitly converted to another type. He investigates further by looking at the output of a single statement, which ends up supporting their theory. He then provides a solution to the issue, however he still does not understand why the implicit conversion is happening and asks why. In this user’s subject header he provides the language and problem that he is dealing with concisely, giving everyone a quick summary of the problem. In the body of the thread, he provides snippets of source code, without putting the entirety of the project in it, isolating the issue and making it easier for others to understand. He also included his theory on the issue and supported it with code analysis, showing an effort to solve the problem. Eventually, he finds and posts a solution, but he is still confused about why the implicit conversion happened in the first place. Finally, he proposes the question of why the variable is being implicitly converted. Due to all of these reasons, this is a perfect example of a smart question. It also helps that he wasn’t asking for the solution to an issue, but asking a question about why the issue happened in the first place. 
+## A Bad Question
+	Here is the link to a Stack Overflow forum thread that is not a good question. In the thread the user splits a string, stores it into a character array, and attempts to convert it into a string, using Integer.parseInt. Firstly, this question is one of the most asked questions on Stack Overflow and has been answered many times, and therefore does not need to be asked again. Additionally, this is an extremely easy issue that can easily be solved by looking at Java documentation. Overall, the clear lack of effort to solve an extremely simple problem, that has been solved countless times, dissuades people from replying and ultimately makes it a bad question.
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
-
-## Is there such thing as a stupid question?
-
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
-
-## What’s a smart question?
-
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
-
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
-
-```
-Q: python date of the previous month
-
-I am trying to get the date of the previous month with python. Here is what i've tried:
-
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
-
-## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+## Why Should Software Engineers Ask Good Questions?
+	All major discoveries in history started with a smart question. Albert Einstein asked, “what if the laws of physics are the same for all observers, regardless of their motion?”, eventually leading him to discover Avogadro’s number, quantum theory of light, special theory of relativity, the photoelectric effect, wave-particle duality, brownian movement, the relationship between mass and energy, Bose-Einstein Condensate, and more. These discoveries ultimately contributed to things that we use everyday such as, GPS, lasers, photoelectric devices, etc. This idea of all major developments starting with a smart question can also be extended to the world of software engineering. One example would be Donald Knuth, who popularized the Big O Notation and the analysis of algorithms. Without his discoveries, software algorithms would undoubtedly be less efficient than they are now. In conclusion, asking smart questions, thought is inspired and innovation is put into motion.
