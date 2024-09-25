@@ -27,7 +27,7 @@ if (x > 5) {
   printf("This will always print!\n");
 }
 ~~~
-With the addition of the curly braces, the entire meaning of the code is changed. Now, the print statements will only be executed if x > 5.
+With the addition of the curly braces, the entire meaning of the code is changed. Now, the print statements will only be executed if x > 5. Simple things such as indentation can completely change the meaning of a piece of code, however this may vary from language to language. Python for example, relys on indentation instead of {}. Therefore, it is also important to consider the language a software is being developed in when coming up with coding standards.
 
 ## Easier for Collaboration
 Something many people seem to forget when talking about development of larger software projects is that most of the time they are developed in teams. As such, having consistent coding standards throughout the project become much more important. By having easier to read code it makes it easier for each individual devloper to be able to leave where another may have left off. It is also important that everyone working on the project all have the same consistent coding standards.
