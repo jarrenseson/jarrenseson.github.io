@@ -30,14 +30,4 @@ if (x > 5) {
 With the addition of the curly braces, the entire meaning of the code is changed. Now, the print statements will only be executed if x > 5.
 
 ## Easier for Collaboration
-
-Another thing I like TypeScript over JavaScript is static typing. Many times in JavaScript I found an error that took me a long time to fix simply because I didn’t use an “= 0”. Also, being able to see what the type is in the code makes the readability of the code significantly better and more predictable. Becuase of this, static typing also makes collaboration with teammates significantly easier and also makes scaling projects easier. Another benefit is being able to catch errors at compile time, preventing bugs, such as attempting to access undefined variables or a mismatched type error.
-
-## Interfaces
-
-Lastly, I also like TypeScripts inclusion of interfaces. It really helps being able to have an outline of an object saved, just like other programming languages. Because it forces objects to have a defined structure, it also makes errors get caught at compile time as opposed to run time. Because it defines an objects structure, it also allows for easier code reusability. Also, it allows for extensibility, allowing for more complex structures. 
-
-## TypeScript for Software Engineering?
-
-As a whole, I think that TypeScript is a good language for web development, as it adds many useful features, that attempt to compensate for JavaScript's shortcomings. For example, static styping and type annotations, allowing for greater scalability. Also, because of its active community, there is much documentation and third party tools. However, I think that web application development is the only application for it. For other types of applications there are more more suitable languages for the tasks at hand.
-
+Something many people seem to forget when talking about development of larger software projects is that most of the time they are developed in teams. As such, having consistent coding standards throughout the project become much more important. By having easier to read code it makes it easier for each individual devloper to be able to leave where another may have left off. It is also important that everyone working on the project all have the same consistent coding standards.
