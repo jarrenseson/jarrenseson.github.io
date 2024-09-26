@@ -16,7 +16,7 @@ labels:
 
 ## Improved Readability
 
-One of the simpler reasons to have good coding standards is that it makes it easier for code to be read. The way that code is formatted can drastically change what we think a piece of code will do vs what it actually does. Take this snippet of C code for example:
+One of the simpler reasons to have good coding standards is that it makes it easier for code to be read. The way that code is formatted can drastically change what we think a piece of code will do versuss what it actually does. Take this snippet of C code, for example:
 ~~~
 if (x > 5)
   printf("X is greater than 5\n");
