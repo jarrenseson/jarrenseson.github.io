@@ -12,6 +12,8 @@ labels:
 
 *While coding standards can often be viewed as menial and rather monotonous, they are an important aspect of software engineering and is something that all good software engineers value.*
 
+<img src="/img/codingStandardsPic.webp">
+
 ## Improved Readability
 
 One of the simpler reasons to have good coding standards is that it makes it easier for code to be read. The way that code is formatted can drastically change what we think a piece of code will do vs what it actually does. Take this snippet of C code for example:
