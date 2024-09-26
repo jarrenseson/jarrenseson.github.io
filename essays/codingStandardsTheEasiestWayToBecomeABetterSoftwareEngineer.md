@@ -12,7 +12,7 @@ labels:
 
 *While coding standards can often be viewed as menial and rather monotonous, they are an important aspect of software engineering and is something that all good software engineers value.*
 
-<img src="/img/codingStandardsPic.webp">
+<img class="rounced float-start pe-4" src="/img/codingStandardsPic.webp">
 
 ## Improved Readability
 
