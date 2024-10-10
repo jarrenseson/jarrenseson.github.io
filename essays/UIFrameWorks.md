@@ -127,4 +127,4 @@ and here is what it would like with it:
 As you can see, the navigation bar with bootstrap 5 is a lot more concise and simpler than than the one without. Bootstrap 5 allows for reponsive elements, without the hassle of implementing them.
 
 ## Consistency
-UI frameworks also allow for easier consistency amongst web application because they have a standarized design system. This can especially helpful for larger projects, where multiple people are working on an application.
+UI frameworks also allow for easier consistency amongst web application because they have a standarized design system. This can especially helpful for larger projects, where multiple people are working on an application. 
