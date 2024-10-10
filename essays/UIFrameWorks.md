@@ -15,10 +15,10 @@ labels:
 <img width="300px" class="rounced float-start pe-4" src="/img/bootstrap5.jpg">
 
 ## The Challenging Part
-It is true that UI frameworks are not the easiest to work with and learning to use them to their full potential can take a while. There are many classes and other compenents that a developer must become familiar with. It may seem as if using pure HTML and CSS is more straightforward, however attempting to achieve responsiveness, consistency, and compatibility across browsers is much harder with only HTML and CSS.
+It is true that UI frameworks are not the easiest to work with, and learning to use them to their full potential can take a while. There are many classes and other components that a developer must become familiar with. It may seem as if using pure HTML and CSS is more straightforward. However, attempting to achieve responsiveness, consistency, and compatibility across browsers is much harder with only HTML and CSS.
 
-## Save Time 
-One of the biggest benefits of using UI frameoworks is that it helps developers to save time. Instead of having to develop components each time a developer wishes to add a new element, a UI framework provides developers with pre-designed components such as buttons, navigation bars, grids, forms, etc. For example, Bootstrap 5 provides developers with classes that aid in the simplification of the navigation bar. Here is what a navigation bar would look like without Boostrap 5:
+## Save Time
+One of the biggest benefits of using UI frameworks is that it helps developers to save time. Instead of having to develop components each time a developer wishes to add a new element, a UI framework provides developers with pre-designed components such as buttons, navigation bars, grids, forms, etc. For example, Bootstrap 5 provides developers with classes that aid in the simplification of the navigation bar. Here is what a navigation bar would look like without Bootstrap 5:
 ~~~
   <style>
     body {
@@ -127,10 +127,13 @@ and here is what it would like with it:
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 ~~~
-As you can see, the navigation bar with bootstrap 5 is a lot more concise and simpler than than the one without. Bootstrap 5 allows for reponsive elements, without the hassle of implementing them. 
+As you can see, the navigation bar with Bootstrap 5 is a lot more concise and simpler than the one without. Bootstrap 5 allows for responsive elements without the hassle of implementing them.
 
 ## Consistency
-UI frameworks also allow for easier consistency amongst web application because they have a standarized design system. This can especially helpful for larger projects, where multiple people are working on an application. By having a consistent design throughout the entirety of the web application, it appears more professional. Also, at least for Bootstrap, it was developed with a mobile-first approach, which means it's first perogrative is responsive design. This means that web applications will function well and appear relatively the same on any screen size. Doing this with pure HTML and CSS would take a more considerable amount of work than doing it using Bootstrap.
+UI frameworks also allow for easier consistency among web applications because they have a standardized design system. This can be especially helpful for larger projects, where multiple people are working on an application. By having a consistent design throughout the entirety of the web application, it appears more professional. Also, at least for Bootstrap, it was developed with a mobile-first approach, which means its first prerogative is responsive design. This means that web applications will function well and appear relatively the same on any screen size. Doing this with pure HTML and CSS would take considerably more work than using Bootstrap.
 
 ## Community Support/Documentation
-These UI frameworks are typically designed by larger groups of developers and have strong communities behind them. As such, there is much documentation behind it. Common bugs that occur are documented and their solutions are noted. This makes debugging much simpler. If you were to run into a bug while only using pure HTML and CSS, there is a chance that you will not be able to find a solution to the issue, and take much more time to fix it.
+These UI frameworks are typically designed by larger groups of developers and have strong communities behind them. As such, there is extensive documentation available. Common bugs that occur are documented, and their solutions are noted. This makes debugging much simpler. If you were to run into a bug while only using pure HTML and CSS, there is a chance that you will not be able to find a solution to the issue, making it much more time-consuming to fix.
+
+
+
