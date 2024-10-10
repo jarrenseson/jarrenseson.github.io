@@ -130,4 +130,7 @@ and here is what it would like with it:
 As you can see, the navigation bar with bootstrap 5 is a lot more concise and simpler than than the one without. Bootstrap 5 allows for reponsive elements, without the hassle of implementing them. 
 
 ## Consistency
-UI frameworks also allow for easier consistency amongst web application because they have a standarized design system. This can especially helpful for larger projects, where multiple people are working on an application. By having a consistent design throughout the entirety of the web application, it appears more professional. 
+UI frameworks also allow for easier consistency amongst web application because they have a standarized design system. This can especially helpful for larger projects, where multiple people are working on an application. By having a consistent design throughout the entirety of the web application, it appears more professional. Also, at least for Bootstrap, it was developed with a mobile-first approach, which means it's first perogrative is responsive design. This means that web applications will function well and appear relatively the same on any screen size. Doing this with pure HTML and CSS would take a more considerable amount of work than doing it using Bootstrap.
+
+## Community Support/Documentation
+These UI frameworks are typically designed by larger groups of developers and have strong communities behind them. As such, there is much documentation behind it. Common bugs that occur are documented and their solutions are noted. This makes debugging much simpler. If you were to run into a bug while only using pure HTML and CSS, there is a chance that you will not be able to find a solution to the issue, and take much more time to fix it.
