@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Coding Standards: The Easiest Way to Become a Better Software Engineer"
 # All dates must be YYYY-MM-DD format!
-date: 2023-9-26
+date: 2024-9-26
 published: true
 labels:
   - Software Engineering
