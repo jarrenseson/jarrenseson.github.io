@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "AI: the Tool to Assist in Learning"
 # All dates must be YYYY-MM-DD format!
-date: 24-12-16
+date: 24-12-17
 published: true
 labels:
   - Software Engineering
