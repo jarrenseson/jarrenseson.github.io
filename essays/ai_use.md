@@ -71,3 +71,8 @@ For documenting code, I would first copy and paste the code into ChatGPT, follow
 
 ### Quality Assurance
 After I would finish writing code, I would copy and paste the code into ChatGPT, followed by "make sure everything is implemented to the highest quality". This would ensure that everything is up to standard. Sometimes however, the code generate by ChatGPT would break some ESLint rules, and I would therefore have to make a work around for that.
+
+## What I Learned
+After experimenting with AI throughout this semester, I believe that it is without a doubt a valuable tool for software engineering. However, it does have its limitations. For ChatGPT at least, in order for it to be truely affective queries must be extremely specific. Users must be able to tell it exactly what it wants or it may not even work as desired. One case in which ChatGPT shines is writing out basic code,implicating severe implications for the future of software engineering. As a whole, AI has contributed to my learning about software engineering, allowing me to further understand React, SQL, TypeScript, design patterns, and even trouble shooting methods.
+
+## AI in the Real World
