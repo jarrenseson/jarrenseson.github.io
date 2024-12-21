@@ -11,6 +11,9 @@ labels:
   - Agile Project Management
 ---
 
+*Throughout the course of ICS 314, I learned many new concepts, such as open source software development, configuration management, development environments, etc. However, the concepts that resonated with me the most were coding standards, functional programming, and agile project management*
+
+
 <img width="300px" class="rounded float-start pe-4" src="/img/coding_standards.png">
 
 ## Coding Standards, a Universal Language
