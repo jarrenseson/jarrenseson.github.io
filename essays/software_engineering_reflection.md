@@ -1,3 +1,4 @@
+---
 layout: essay  
 type: essay  
 title: "ICS 314 Concepts in the Real World!"  

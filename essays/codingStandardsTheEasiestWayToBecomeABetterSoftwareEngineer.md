@@ -1,3 +1,4 @@
+---
 layout: essay  
 type: essay  
 title: "Coding Standards: The Easiest Way to Become a Better Software Engineer"  

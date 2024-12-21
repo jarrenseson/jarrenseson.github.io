@@ -1,3 +1,4 @@
+---
 layout: essay  
 type: essay  
 title: "The Best Aspects of Software Engineering"  

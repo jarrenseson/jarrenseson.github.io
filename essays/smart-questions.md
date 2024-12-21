@@ -1,3 +1,4 @@
+---
 layout: essay  
 type: essay  
 title: "How to Ask Questions and Get Insightful Answers"  
