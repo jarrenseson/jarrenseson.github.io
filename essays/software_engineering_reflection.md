@@ -11,7 +11,7 @@ labels:
   - Agile Project Management
 ---
 
-<img width="300px" class="rounced float-start pe-4" src="/img/coding_standards.png">
+<img width="300px" class="rounded float-start pe-4" src="/img/coding_standards.png">
 
 ## Coding Standards, a Universal Language
 One key takeaway from this class is the importance of coding standards. Coding standards are a set of criteria and practices, that are designed to encourage higher quality, readability, and maintainability of code. Some of these practices include formatting rules, documentation, code structure, and testing. Before this class, I had not had many classes where coding standards were heavily focused. For example, in my ICS 311 course, the majority of the assignments were group work, and coding standards were nonexistent. Comparing the course's project's code, the projects with coding standards implemented are a lot easier to read and therefore made collaboration significantly easier. As such, I will continue to use coding standards in all of my future projects, even solo projects. This is because while coding standards make collaboration easier, collaboration is not the sole purpose of coding standards.

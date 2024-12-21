@@ -12,7 +12,7 @@ labels:
 
 *In a technical interview, the question "what are design patterns?" and "what design patterns have you used in your own code" may be asked. As aspiring computer science graduates, we should be able to answer this question.*
 
-<img width="300px" class="rounced float-start pe-4" src="/img/design_patterns.png">
+<img width="300px" class="rounded float-start pe-4" src="/img/design_patterns.png">
 
 ## The Mold to Unlock any Lock
 

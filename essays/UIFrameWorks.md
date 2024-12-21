@@ -12,7 +12,7 @@ labels:
 
 *Despite UI frameworks being complicated and having many niche attributes, they are an important skill to learn that will overall improve and simplify user interactions.*
 
-<img width="300px" class="rounced float-start pe-4" src="/img/bootstrap5.jpg">
+<img width="300px" class="rounded float-start pe-4" src="/img/bootstrap5.jpg">
 
 ## The Challenging Part
 It is true that UI frameworks are not the easiest to work with, and learning to use them to their full potential can take a while. There are many classes and other components that a developer must become familiar with. It may seem as if using pure HTML and CSS is more straightforward. However, attempting to achieve responsiveness, consistency, and compatibility across browsers is much harder with only HTML and CSS.

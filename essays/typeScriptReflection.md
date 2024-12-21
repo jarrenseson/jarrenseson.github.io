@@ -18,7 +18,7 @@ One thing in particular that I like about TypeScript is its addition of the unio
 
 ## Static Typing
 
-Another thing I like TypeScript over JavaScript is static typing. Many times in JavaScript I found an error that took me a long time to fix simply because I didn’t use an “= 0”. Also, being able to see what the type is in the code makes the readability of the code significantly better and more predictable. Becuase of this, static typing also makes collaboration with teammates significantly easier and also makes scaling projects easier. Another benefit is being able to catch errors at compile time, preventing bugs, such as attempting to access undefined variables or a mismatched type error.
+Another thing I like TypeScript over JavaScript is static typing. Many times in JavaScript I found an error that took me a long time to fix simply because I didn’t use an “= 0”. Also, being able to see what the type is in the code makes the readability of the code significantly better and more predictable. Because of this, static typing also makes collaboration with teammates significantly easier and also makes scaling projects easier. Another benefit is being able to catch errors at compile time, preventing bugs, such as attempting to access undefined variables or a mismatched type error.
 
 ## Interfaces
 
@@ -26,5 +26,5 @@ Lastly, I also like TypeScripts inclusion of interfaces. It really helps being a
 
 ## TypeScript for Software Engineering?
 
-As a whole, I think that TypeScript is a good language for web development, as it adds many useful features, that attempt to compensate for JavaScript's shortcomings. For example, static styping and type annotations, allowing for greater scalability. Also, because of its active community, there is much documentation and third party tools. However, I think that web application development is the only application for it. For other types of applications there are more more suitable languages for the tasks at hand.
+As a whole, I think that TypeScript is a good language for web development, as it adds many useful features, that attempt to compensate for JavaScript's shortcomings. For example, static typing and type annotations, allowing for greater scalability. Also, because of its active community, there is much documentation and third party tools. However, I think that web application development is the only application for it. For other types of applications there are more more suitable languages for the tasks at hand.
 
