@@ -12,7 +12,7 @@ labels:
 
 *AI has already set itsself in the modern day as a valuable tool. As we continue to advance, it will become a more integral part of our lives*
 
-<img width="300px" class="rounced float-start pe-4" src="/img/AI.png">
+<img width="300px" class="rounded float-start pe-4" src="/img/AI.png">
 
 ## AI as a Tool
 
