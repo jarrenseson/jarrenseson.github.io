@@ -1,31 +1,40 @@
+layout: essay  
+type: essay  
+title: "The Best Aspects of Software Engineering"  
+# All dates must be YYYY-MM-DD format!  
+date: 2023-09-03  
+published: true  
+labels:  
+  - Software Engineering  
+  - Computer Science  
+  - Machine Learning  
+  - Automation/Scripting  
+  - Cyber Security  
+
 ---
-layout: essay
-type: essay
-title: "The Best Aspects of Software Engineering"
-# All dates must be YYYY-MM-DD format!
-date: 2023-9-3
-published: true
-labels:
-  - Software Engineering
-  - Computer Science
-  - Machine Learning
-  - Automation/Scripting
-  - Cyber Security
----
 
-*Software engineering is a very diverse field, which covers a wide array of topics, such as DevOps engineering, front end development, back end development, full stack development, and much more.*
+*Software engineering is a diverse field covering a wide array of topics, including DevOps engineering, front-end development, back-end development, full-stack development, and much more.*  
 
-<img width="300px" class="rounded float-start pe-4" src="/img/automation.jpg">
+<img width="300px" class="rounded float-start pe-4" src="/img/automation.jpg">  
 
-## Automation
+## Automation  
 
-Due to the rise of newer high level languages, such as Python, learning to program has never been easier. Due to Python's easy readability and extensive library, it has become the go to language for scripting and automation. Many times I find myself doing tedious and mundane tasks on my computer, which could easily be done much quicker and more accurately by a computer. As such, I have been trying to learn and create more Python projects. Not only can scripting assist me in day to day life, but it could also simplify the lives of many and help others with what we would consider to be "busy" work.
+With the rise of newer high-level languages like Python, learning to program has never been easier. Thanks to Python's easy readability and extensive libraries, it has become the go-to language for scripting and automation.  
 
-## AI/Machine Learning
+Often, I find myself doing tedious and mundane tasks on my computer—tasks that could be done much quicker and more accurately by a computer. As a result, I’ve been learning and creating more Python projects. Not only can scripting assist me in day-to-day life, but it can also simplify the lives of others by handling what we often consider "busy" work.  
 
-Over the past couple of years we have seen rapid development in the AI/machine learning sector of technology. It is to the point where many basic aspects of our life are influenced by AI without us even realizing it. For example, if you have an Iphone X or anything older, anytime you open your phone using face ID your phone accesses data models, based on millions of other facial images with other lightings, angles, etc. It is only a matter of time till AI will have the capabilities to have an even more prevalent presence in our lives. Another example, which is more prevalent in our lives are fully autonomous vehicles. We are now capable of having fully autonomous cars. Although imperfect, it is a harbinger of a new era of technology, which we may see in the coming century.
+## AI/Machine Learning  
 
-## Cyber Security 
+In recent years, we’ve witnessed rapid advancements in AI and machine learning. Many basic aspects of our lives are now influenced by AI, often without us even realizing it.  
 
-Sadly, the technological advances that have occurred are not only expended to those with good intentions but also those with malicious intent. As such, now more than ever we need more sophisticated cyber security systems. As we become more technologically advanced, we rely more on it, which is why it is so important. For example, entire branches of the DOD, such as the Defense Information System Agency (DISA), are responsible for securing global telecommunications, IT infrastructure, and other services, which support the US military and government. This branch of the DOD is still relatively new, only being founded in 1991.
+For example, if you own an iPhone X or newer, every time you unlock your phone using Face ID, the device accesses data models based on millions of other facial images captured under various lighting conditions, angles, and scenarios.  
 
+It’s only a matter of time before AI becomes even more integrated into our daily lives. Fully autonomous vehicles are another example of AI's growing presence. While these cars are not yet perfect, they signify the dawn of a new technological era, which we may fully realize in the coming decades.  
+
+## Cybersecurity  
+
+Unfortunately, technological advancements benefit not only those with good intentions but also those with malicious ones. Now, more than ever, sophisticated cybersecurity systems are essential.  
+
+As we rely more on technology, its security becomes increasingly critical. For instance, entire branches of the U.S. Department of Defense (DoD), such as the Defense Information Systems Agency (DISA), are dedicated to securing global telecommunications, IT infrastructure, and other services that support the U.S. military and government.  
+
+Interestingly, this branch of the DoD is still relatively young, having been founded in 1991. Its continued growth underscores the importance of cybersecurity in an increasingly digital world.  

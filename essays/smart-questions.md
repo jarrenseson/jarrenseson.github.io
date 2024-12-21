@@ -1,25 +1,66 @@
----
-layout: essay
-type: essay
-title: "How to Ask Questions and Get Insightful Answers"
-# All dates must be YYYY-MM-DD format!
-date: 2024-09-12
-published: true
-labels:
-  - Questions
-  - Answers
-  - Innovation
----
-<img width="300px" class="rounded float-start pe-4" src="/img/smartQuestion.jpg">
+layout: essay  
+type: essay  
+title: "How to Ask Questions and Get Insightful Answers"  
+# All dates must be YYYY-MM-DD format!  
+date: 2024-09-12  
+published: true  
+labels:  
+  - Questions  
+  - Answers  
+  - Innovation  
 
-## What is a Smart Question?
-There are multiple criteria that a question must meet in order to be received well by the community and ultimately inform not only yourself but also everyone. Before you even ask the question, you want to search for the solution to the problem yourself. You want to be able to show that you put effort into solving the problem before asking or asking a question that thousands of others have asked and all received the same answer. When you do ask the question, you firstly want to ensure that you post it in the right forum. Questions should fall within the subject of the forum. When you first post a question, it should only be posted to one forum, you don’t want to cross post multiple forums. When posting questions, ensure that the subject header is specific but also concise. A common format for subject headers is the object - deviation format. The object is the object that the problem pertains to and the deviation is the problem itself. When posting the question you want to make it easy to reply, don’t ask for users to send replies to an email. It should also go without saying to use proper grammar and spelling. The main goal of asking a question is to be specific and concise about the problem. Here are some guidelines when describing the problem: describe the symptoms of the bug in chronological order, the environment where it occurred, the research on the problem you did to try to understand the problem better, the steps you took to try to solve the problem yourself, any recent changes on your device, the goal you are trying to achieve, and if possible a way to safely replicate the bug. When you are posting code you want to ensure that you are not posting the entirety of the code. A smaller version of the code with your expectations vs reality will suffice.
-## What is a Stupid Question? 
-There is a smart way to answer questions and there is a stupid way to ask questions. Stupid questions are typically ignored in online forums and will ultimately lead to no resolution to the problem at hand. The main issue with these stupid questions is ambiguity. Important factors such as, operating system, environment, events leading up to the issue, etc are left out and leave other users confused and asking questions, something that should be avoided when posting on forums. On the other end of the spectrum, there are posts that go too in depth. When posting on forums, you also want to make sure that you are concise with the question you are trying to ask. No one wants to read a 6 page essay describing a problem that you are having. Also, a common theme of stupid questions is a lack of effort on the posters' part. They might not show or might not have researched the problem beforehand entirely. Just throwing your question at others with no intention of trying to solve the problem yourself dissuades other users from helping you to achieve a resolution. 
-## A Good Question 
-Here is the link to a Stack Overflow forum thread that is a good question. In the thread, the user describes that he is suffering an issue with implicit conversion in C. The goal of the user was to implement a function that, given a byte array of length N, calculate the 16-bit checksum given by a given formula. They state that the implementation did not give the expected result. He attempts to solve the issue himself, theorizing that a variable was being implicitly converted to another type. He investigates further by looking at the output of a single statement, which ends up supporting their theory. He then provides a solution to the issue, however he still does not understand why the implicit conversion is happening and asks why. In this user’s subject header he provides the language and problem that he is dealing with concisely, giving everyone a quick summary of the problem. In the body of the thread, he provides snippets of source code, without putting the entirety of the project in it, isolating the issue and making it easier for others to understand. He also included his theory on the issue and supported it with code analysis, showing an effort to solve the problem. Eventually, he finds and posts a solution, but he is still confused about why the implicit conversion happened in the first place. Finally, he proposes the question of why the variable is being implicitly converted. Due to all of these reasons, this is a perfect example of a smart question. It also helps that he wasn’t asking for the solution to an issue, but asking a question about why the issue happened in the first place. 
-## A Bad Question
-Here is the link to a Stack Overflow forum thread that is not a good question. In the thread the user splits a string, stores it into a character array, and attempts to convert it into a string, using Integer.parseInt. Firstly, this question is one of the most asked questions on Stack Overflow and has been answered many times, and therefore does not need to be asked again. Additionally, this is an extremely easy issue that can easily be solved by looking at Java documentation. Overall, the clear lack of effort to solve an extremely simple problem, that has been solved countless times, dissuades people from replying and ultimately makes it a bad question.
+---
 
-## Why Should Software Engineers Ask Good Questions?
-All major discoveries in history started with a smart question. Albert Einstein asked, “what if the laws of physics are the same for all observers, regardless of their motion?”, eventually leading him to discover Avogadro’s number, quantum theory of light, special theory of relativity, the photoelectric effect, wave-particle duality, brownian movement, the relationship between mass and energy, Bose-Einstein Condensate, and more. These discoveries ultimately contributed to things that we use everyday such as, GPS, lasers, photoelectric devices, etc. This idea of all major developments starting with a smart question can also be extended to the world of software engineering. One example would be Donald Knuth, who popularized the Big O Notation and the analysis of algorithms. Without his discoveries, software algorithms would undoubtedly be less efficient than they are now. In conclusion, asking smart questions, thought is inspired and innovation is put into motion.
+<img width="300px" class="rounded float-start pe-4" src="/img/smartQuestion.jpg">  
+
+## What is a Smart Question?  
+
+There are several criteria that a question must meet to be well-received by the community and ultimately benefit not only yourself but also others. Before asking a question, you should search for the solution to the problem on your own. Demonstrating effort to solve the issue yourself is essential, as asking a question that thousands of others have already asked (and received the same answer for) will likely be poorly received.  
+
+When asking a question, first ensure that you post it in the correct forum. The question should align with the forum’s subject matter, and it should only be posted in one forum to avoid cross-posting. Additionally, ensure that the subject header is specific yet concise. A common format for subject headers is the object-deviation format, where the "object" refers to the subject of the problem, and the "deviation" describes the issue.  
+
+Make it easy for others to reply—avoid asking users to send answers via email. Use proper grammar and spelling to convey professionalism and clarity. The main goal is to be specific and concise. When describing the problem, include the following details:  
+
+- A chronological description of the symptoms of the bug  
+- The environment where the issue occurred  
+- Research you’ve done to better understand the problem  
+- Steps you’ve taken to solve the problem yourself  
+- Any recent changes to your setup or device  
+- The goal you’re trying to achieve  
+- If possible, a way to safely replicate the bug  
+
+When posting code, avoid including the entire project. Instead, provide a smaller snippet that isolates the issue, along with a comparison of your expectations versus the actual results.  
+
+## What is a Stupid Question?  
+
+There is a smart way to ask questions, and there is a stupid way. Stupid questions are typically ignored in online forums, leaving the issue unresolved. The primary issue with such questions is ambiguity. Important factors such as the operating system, environment, and events leading up to the problem are often omitted, leaving others confused and prompting more questions—something that should be avoided.  
+
+On the other hand, some posts go into excessive detail. While it’s essential to be thorough, no one wants to read a six-page essay about a problem.  
+
+Another hallmark of a stupid question is a lack of effort from the asker. This includes not researching the problem beforehand or failing to show any attempts to resolve it. Simply throwing the question at others without taking any initiative discourages people from helping.  
+
+## A Good Question  
+
+Here’s an example of a good question from a Stack Overflow thread. In the thread, the user describes an issue with implicit conversion in C. Their goal was to implement a function that calculates a 16-bit checksum for a given byte array using a specified formula. They explain that the implementation didn’t yield the expected result.  
+
+The user attempted to solve the issue, theorizing that a variable was being implicitly converted to another type. They further investigated by analyzing the output of a specific statement, which supported their theory. While they eventually provided a solution, they still didn’t understand why the implicit conversion occurred and asked for clarification.  
+
+In this example, the subject header succinctly describes the language and problem, giving others a quick summary. In the body, the user includes isolated snippets of code, avoiding unnecessary clutter. They also describe their analysis and the steps they took to troubleshoot, demonstrating effort. Ultimately, this is a perfect example of a smart question because it focuses on understanding the root cause rather than merely asking for a solution.  
+
+## A Bad Question  
+
+Here’s an example of a bad question from a Stack Overflow thread. In the thread, the user splits a string, stores it in a character array, and attempts to convert it into a string using `Integer.parseInt`.  
+
+This question is problematic for several reasons:  
+1. It’s one of the most frequently asked questions on Stack Overflow and has been answered countless times.  
+2. It’s an extremely simple issue that could easily be resolved by consulting the Java documentation.  
+
+Overall, the clear lack of effort to solve such a simple, well-documented problem discourages others from replying, making it a bad question.  
+
+## Why Should Software Engineers Ask Good Questions?  
+
+All major discoveries in history began with a smart question. For example, Albert Einstein asked, “What if the laws of physics are the same for all observers, regardless of their motion?” This question led to groundbreaking discoveries, including Avogadro’s number, the quantum theory of light, the special theory of relativity, the photoelectric effect, wave-particle duality, and more. These discoveries have contributed to everyday technologies such as GPS, lasers, and photoelectric devices.  
+
+This idea of progress starting with a smart question also applies to software engineering. For example, Donald Knuth’s contributions to Big O notation and algorithm analysis were driven by insightful questions. Without his work, software algorithms would be far less efficient today.  
+
+In conclusion, asking smart questions inspires thought and drives innovation forward.  
