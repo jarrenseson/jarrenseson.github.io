@@ -4,7 +4,7 @@ type: essay
 title: "TypeScript: The Future of Software Engineering?"
 # All dates must be YYYY-MM-DD format!
 date: 2023-9-4
-published: true
+published: false
 labels:
   - Software Engineering
   - TypeScript

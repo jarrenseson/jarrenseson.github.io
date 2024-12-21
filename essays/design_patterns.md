@@ -4,7 +4,7 @@ type: essay
 title: "Design Patterns: The Mold to all Locks"
 # All dates must be YYYY-MM-DD format!
 date: 2024-12-5
-published: true
+published: false
 labels:
   - Design Patterns
   - Software Engineering
