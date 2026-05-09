@@ -1,64 +1,116 @@
 {
   "basics": {
     "name": "Jarren Seson",
-    "label": "Student",
+    "label": "Computer Science Student + Research Software Developer",
     "picture": "https://github.com/jarrenseson.png",
     "email": "jarrenys@hawaii.edu",
-    "phone": "",
+    "phone": "(808) 861-9341",
     "website": "https://jarrenseson.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2026. I hope to eventually become a machine learning engineer!",
-    "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "I build research software, scientific visualization tools, and data-driven applications across React, TypeScript, Python, Java, and C. My recent work spans collaborative SAGE3 web apps at the Laboratory for Advanced Visualizations and Applications, adaptive optics calibration tooling at W. M. Keck Observatory, and machine learning pipelines for sentiment drift and bot-like text detection.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Kaneohe",
+      "countryCode": "USA",
+      "region": "HI"
+    },
     "profiles": [
-      { "network": "github", "username": "jarrenseson", "url": "http://github.com/jarrenseson" },
-      { "network": "linkedin", "username": "jarrenseson", "url": "https://www.linkedin.com/in/jarren-seson-ab8516245/" }
+      {
+        "network": "github",
+        "username": "jarrenseson",
+        "url": "https://github.com/jarrenseson"
+      },
+      {
+        "network": "linkedin",
+        "username": "jarren-seson-ab8516245",
+        "url": "https://www.linkedin.com/in/jarren-seson-ab8516245/"
+      }
     ]
   },
   "interests": [
-    { "name": "Software Engineering" },
-    { "name": "Machine Learning" },
-    { "name": "Fitness" }
+    {
+      "name": "Research Software"
+    },
+    {
+      "name": "Scientific Visualization"
+    },
+    {
+      "name": "Machine Learning"
+    },
+    {
+      "name": "Human-Centered Interfaces"
+    }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript" ]
+      "name": "Programming Languages",
+      "keywords": ["Java", "C", "Python", "TypeScript", "JavaScript", "HTML", "CSS"]
     },
     {
-      "name": "Version Control",
-      "keywords": [ "Git/GitHub" ]
+      "name": "Frontend",
+      "keywords": ["React", "AngularJS", "Chakra UI", "Responsive UI", "Custom React Hooks"]
+    },
+    {
+      "name": "Data and ML",
+      "keywords": ["RoBERTa", "TF-IDF", "XGBoost", "Sentiment Analysis", "Bot Detection", "Time-Series Visualization"]
+    },
+    {
+      "name": "Systems and Tools",
+      "keywords": ["GitHub", "API Integration", "Testing", "Debugging", "SVG Diagrams", "SQL"]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2026)",
-      "studyType": "B.S.",
-      "startDate": "2022-08-26",
+      "institution": "University of Hawaii at Manoa",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-08-01",
       "endDate": "Present",
-      "courses": [
-      ]
+      "location": "Honolulu, HI",
+      "courses": ["Expected graduation: May 2027"]
     }
   ],
   "work": [
     {
-      "company": "Tanaka of Tokyo",
-      "position": "Busser",
-      "website": "https://www.tanakaoftokyo.com/en/main",
-      "startDate": "2024-08-01",
+      "company": "Laboratory for Advanced Visualizations and Applications",
+      "position": "Undergraduate Research Assistant",
+      "website": "https://lava.manoa.hawaii.edu/",
+      "startDate": "2025-09-01",
       "endDate": "Present",
-      "summary": "",
-      "highlights": 
+      "location": "Honolulu, HI",
+      "summary": "Contributing to SAGE3, a collaborative, real-time, web-based workspace for scientific research and interactive applications.",
+      "highlights": [
+        "Designed and implemented React and TypeScript applications integrated into the SAGE3 multi-app ecosystem.",
+        "Developed scalable UI components with Chakra UI and custom React hooks for responsive state management and multi-user interaction.",
+        "Built SVG visualization tools that improve scientific collaboration and communication."
+      ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Web Application Developer",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2023-06-01",
-      "endDate": "2023-11-01",
-      "summary": "",
+      "company": "W. M. Keck Observatory",
+      "position": "Software Engineer Intern",
+      "website": "https://keckobservatory.org/",
+      "startDate": "2025-06-01",
+      "endDate": "2025-08-01",
+      "location": "Kamuela, HI",
+      "summary": "Supported the High-order Advanced Keck Adaptive Optics project, including work related to the upgrade from a 349-actuator to a 2874-actuator deformable mirror for the Keck II telescope.",
       "highlights": [
-        "Develop and maintain front-end and back-end components for the University of Hawaii groupings website, using HTML, JavaScript, React, AngularJS, and Java",
-        "Integrated with external APIs to fetch data from third-party platforms, expanding website functionality, and improving user experience"
+        "Designed and implemented a Python-based calibration script for measuring non-common path aberrations between the adaptive optics system and science camera using wavefront sensor data.",
+        "Converted wavefront measurements into centroid offsets to optimize closed-loop adaptive optics performance.",
+        "Conducted mock IOC tests and bench tests on Keck I and Keck II systems."
+      ]
+    },
+    {
+      "company": "University of Hawaii at Manoa",
+      "position": "Web Application Developer",
+      "website": "https://www.hawaii.edu/",
+      "startDate": "2023-05-01",
+      "endDate": "2023-11-01",
+      "location": "Honolulu, HI",
+      "summary": "Developed and maintained components for the University of Hawaii groupings website.",
+      "highlights": [
+        "Built front-end and back-end features with HTML, JavaScript, React, AngularJS, and Java.",
+        "Integrated external APIs to expand website functionality and improve the user experience.",
+        "Performed testing, debugging, and UX improvements based on user feedback."
       ]
     }
   ],

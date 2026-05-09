@@ -1,21 +1,26 @@
 ---
-layout: project  
-type: project  
-image: img/uhjewelslogo.png  
-title: "UH Jewels"  
-date: 2024  
-published: true  
-labels:  
-  - Software Engineering  
-summary: "UH Jewels is an online jewelry shop that allows users to browse and place orders for jewelry."  
+layout: project
+type: project
+image: img/uhjewelslogo.png
+title: "UH Jewels"
+date: 2024
+published: true
+resume: true
+projecturl: "https://github.com/UH-Jewels/uh-jewels-application-template"
+labels:
+  - TypeScript
+  - HTML
+  - CSS
+  - SQL
+summary: "A marketplace-style web application for browsing jewelry, managing a cart, and completing a mock order flow."
 ---
 
-<img src="/img/uh_jewels.png" class="center" style="max-width: 90%; height: auto;">
+<img src="/img/uh_jewels.png" class="center" style="max-width: 90%; height: auto;" alt="UH Jewels application screenshot">
 
-This web application was developed by Waltz Tuzon, Katelyn Sung, and me in our ICS 314 class. It is a mock jewelry site consisting of 7 main pages: the home page, the products page, the shopping cart page, the edit cart page, the payment page, and the shipping information page. Before users can access the products page, they are prompted to log in or register a new account if they haven't already.  
+This web application was developed by Waltz Tuzon, Katelyn Sung, and me in our ICS 314 class. It is a mock jewelry marketplace with a home page, product catalog, shopping cart, edit cart flow, payment page, and shipping information page. Before users can access the products page, they are prompted to log in or register a new account if they have not already.
 
-On the products page, our jewelry products, which are read from a database, are listed and can be added to the user's cart. From there, users can either click on the cart icon in the top right corner or click the "Proceed to Cart" button underneath the products to proceed to their cart.  
+On the products page, jewelry products are read from a database, listed, and added to the user's cart. From there, users can open the cart or continue through the checkout flow.
 
-On the cart page, all items in a user's cart are displayed in a table with the product name, quantity, and a link to a form for changing the quantity. If a user wishes to change the quantity, the form is a simple input form that accepts numbers and updates the database accordingly. After making the desired changes, users can click the "Proceed to Payment" button and input their payment information. Once the form is filled out, they can continue to the shipping form by clicking the "Continue to Shipping Form" button. Finally, users input their shipping information and click submit to complete their order.  
+On the cart page, all items in a user's cart are displayed in a table with the product name, quantity, and a link to a form for changing the quantity. The quantity form accepts a numeric value and updates the database accordingly. After making changes, users can proceed through payment and shipping forms to complete the mock order. This project gave me hands-on experience with UI development, database interactions, and full user flows.
 
-Click [here](https://uh-jewels.github.io/) to view our project.  
+Source: <a href="https://github.com/UH-Jewels/uh-jewels-application-template">UH-Jewels/uh-jewels-application-template</a>
