@@ -1,47 +1,71 @@
-<div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
+<section class="hero-shell">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <img width="300px" src="{{ site.data.bio.basics.picture }}" class="d-block mx-auto rounded-circle">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Research software / Scientific visualization / ML systems</p>
+        <h1>{{ site.data.bio.basics.name }}</h1>
+        <p class="hero-lead">{{ site.data.bio.basics.summary }}</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="{{ '/resume.html' | prepend: site.baseurl }}">View Resume</a>
+          <a class="btn btn-outline-light" href="{{ '/#projects' | prepend: site.baseurl }}">Explore Projects</a>
+        </div>
       </div>
-      <div class="col-lg-8">
-        <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
-        <p class="lead text-center">{{ site.data.bio.basics.label }}</p>
-        <p class="lead">{{ site.data.bio.basics.summary }}</p>
-        <hr class="my-4">
-        <p class="lead m-0">
-          Interests:
-          {% for interest in site.data.bio.interests %}
-          {{ interest.name }}{% if forloop.last != true %}, {% endif %}
-          {% endfor %}
-        </p>
-        <hr class="my-4">
-        <div class="row">
 
-          {% if site.data.bio.basics.website %}
-            {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
-            <div class="col text-center">
-              {% include about/social.html url=url name='house' %}
-            </div>
-          {% endif %}
-
-          {% if site.data.bio.basics.email %}
-            {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
-            <div class="col text-center">
-              {% include about/social.html url=url name='envelope' %}
-            </div>
-          {% endif %}
-
+      <aside class="profile-panel" aria-label="Profile snapshot">
+        <div class="profile-photo-wrap">
+          <img src="{{ site.data.bio.basics.picture }}" alt="{{ site.data.bio.basics.name }}" class="profile-photo">
+        </div>
+        <div>
+          <p class="profile-role">{{ site.data.bio.basics.label }}</p>
+          <p class="profile-location">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }}</p>
+        </div>
+        <div class="profile-links">
+          {% capture email_url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
+          {% include about/social.html url=email_url name='envelope' label='Email' %}
           {% for profile in site.data.bio.basics.profiles %}
             {% capture url %}{{ profile.url }}{% endcapture %}
             {% capture name %}{{ profile.network | downcase }}{% endcapture %}
-            <div class="col text-center">
-              {% include about/social.html url=url name=name %}
-            </div>
+            {% include about/social.html url=url name=name label=profile.network %}
           {% endfor %}
-
         </div>
+      </aside>
+    </div>
+
+    <div class="signal-strip">
+      <div>
+        <span class="signal-value">SAGE3</span>
+        <span class="signal-label">Collaborative research apps</span>
+      </div>
+      <div>
+        <span class="signal-value">Keck AO</span>
+        <span class="signal-label">Adaptive optics calibration</span>
+      </div>
+      <div>
+        <span class="signal-value">RoBERTa</span>
+        <span class="signal-label">Sentiment + bot detection</span>
       </div>
     </div>
   </div>
-</div>
+</section>
+
+<section class="experience-band">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Current Focus</p>
+      <h2>Building software where interfaces meet scientific work.</h2>
+    </div>
+    <div class="experience-grid">
+      {% for entry in site.data.bio.work limit:3 %}
+        <article class="experience-item">
+          <div class="experience-date">
+            {{ entry.startDate | date: "%b %Y" }} -
+            {% if entry.endDate == "Present" %}Present{% else %}{{ entry.endDate | date: "%b %Y" }}{% endif %}
+          </div>
+          <h3>{{ entry.position }}</h3>
+          <p class="experience-company">{{ entry.company }}</p>
+          <p>{{ entry.summary }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

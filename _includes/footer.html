@@ -1,9 +1,19 @@
-<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
-  <div class="container-fluid">
-    <div class="ms-auto">
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
-      </ul>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-name">{{ site.data.bio.basics.name }}</p>
+        <p class="footer-copy">Research software, scientific visualization, and ML systems.</p>
+      </div>
+      <div class="footer-links">
+        {% capture email_url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
+        {% include about/social.html url=email_url name='envelope' label='Email' %}
+        {% for profile in site.data.bio.basics.profiles %}
+          {% capture url %}{{ profile.url }}{% endcapture %}
+          {% capture name %}{{ profile.network | downcase }}{% endcapture %}
+          {% include about/social.html url=url name=name label=profile.network %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </footer>
